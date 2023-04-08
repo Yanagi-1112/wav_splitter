@@ -27,7 +27,7 @@ def split_wav_file(input_file, output_dir, output_prefix, split_duration):
         print(f"Exported '{split_file_path}'")
 
 if __name__ == "__main__":
-    input_file = "uedarena.wav"  # 入力ファイル名
+    input_file = "xxx.wav"  # 入力ファイル名
     output_dir = "output"  # 分割ファイルを保存するディレクトリ
     output_prefix = "split"  # 分割ファイルのプレフィックス
     split_duration = 3  # 分割する秒数
